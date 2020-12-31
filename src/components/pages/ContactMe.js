@@ -21,13 +21,14 @@ export default function ContactUs() {
 
   return (
     <>
-    <div class="infoContainer">
+    <div class="resumeContainer">
       <p> Feel free to download my CV using the button below!</p>
+      <br></br>
       <a href="/files/CV.pdf" download>
         <Button
         className='buttons'
         buttonStyle='buttonOutlined'
-        buttonSize='buttonLarge'>
+        buttonSize='buttonMedium'>
           CV
         </Button>
       </a>
