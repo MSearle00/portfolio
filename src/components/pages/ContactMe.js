@@ -1,0 +1,64 @@
+import React from 'react';
+import emailjs from 'emailjs-com';
+import { Button } from '.././Button';
+
+import './ContactMe.css';
+
+export default function ContactUs() {
+
+  function sendEmail(e) {
+    e.preventDefault();
+
+    emailjs.sendForm('default_service', 'template_7p41itg', e.target, 'user_epre9iRRNnEE19GXSKR2l')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+
+      document.getElementById('contactForm').reset();
+  }
+
+  return (
+    <>
+    <div class="infoContainer">
+      <p> Feel free to download my CV using the button below!</p>
+      <a href>
+        <Button
+        className='buttons'
+        buttonStyle='buttonOutlined'
+        buttonSize='buttonLarge'>
+          CV
+        </Button>
+      </a>
+    </div>
+
+
+    <div class="contactContainer">
+      <form id="contactForm" onSubmit={sendEmail}>
+      <div class="field">
+          <label for="from_name">Name</label>
+          <input type="text" name="from_name" id="from_name"/>
+        </div>
+
+        <div class="field">
+          <label for="user_email">Email</label>
+          <input type="text" name="user_email" id="user_email"/>
+        </div>
+
+        <div class="field">
+          <label for="subject">Subject</label>
+          <input type="text" name="subject" id="subject"/>
+        </div>
+
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea type="text" name="message" id="message"/>
+        </div>
+
+        <input type="submit" id="button" value="Send Email" />
+      </form>
+    </div>
+    </>
+  );
+}

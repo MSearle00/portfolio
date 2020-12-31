@@ -1,0 +1,63 @@
+body{
+    background-color:rgb(131, 170, 185);
+    padding: 0;
+	margin: 0;
+	scroll-behavior: smooth;
+}
+
+.aboutMe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gridWrapper{
+	display: grid;
+	padding-bottom: 50px;
+    padding-top: 50px;
+    width: 50%;
+    margin: auto;
+    border-bottom: 2px black solid;
+}
+
+.subtitle{
+	display: flex;
+	justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.skills, .technologies, .education {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.frontEndSkills{
+	display: flex;
+	flex-grow:1;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin:0;
+	padding: 0;
+}
+.backEndSkills{
+	display: flex;
+	flex-grow:0.8;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin:0;
+	padding: 0;
+	border-left: solid 1px black;
+}
+
+@media screen and (max-width: 960px) {
+    .gridWrapper, .gridWrapper{
+        width: 80%;
+    }
+    .aboutMe{
+        width: 90%;
+        margin:auto;
+    }
+}

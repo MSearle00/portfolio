@@ -1,0 +1,12 @@
+[   
+    { "id": "1", "title": "Basic webpage", "tags": ["HTML", "CSS"], "date": "11-08-2020" },
+    { "id": "2", "title": "A basic SPA about travelling", "tags": ["HTML", "CSS"], "date": "18-08-2020" },
+    { "id": "3", "title": "A quiz template", "tags": ["HTML", "Javascript", "CSS"], "date": "25-08-2020" },
+    { "id": "4", "title": "Javascript game", "tags": ["Javascript", "HTML", "CSS"], "date": "01-09-2020" },
+    { "id": "5", "title": "Ceaser Cipher", "tags": ["Javascript", "HTML", "CSS"], "date": "08-09-2020" },
+    { "id": "6", "title": "Calculator App", "tags": ["React.js", "CSS", "SCSS", "HTML"], "date": "15-09-2020" },
+    { "id": "7", "title": "Social Site", "tags": ["React.js", "CSS", "HTML"], "date": "22-09-2020" },
+    { "id": "8", "title": "Old Portfolio", "tags": ["CSS", "HTML"], "date": "29-09-2020" },
+    { "id": "9", "title": "Weather App", "tags": ["Javascript", "HTML", "CSS"], "date": "14-10-2020" },
+    { "id": "10", "title": "Event App", "tags": ["React.js", "Mongo", "Express.js", "Node.js", "CSS", "HTML"], "date": "28-10-2020" }
+    ] 
