@@ -23,7 +23,7 @@ export default function ContactUs() {
     <>
     <div class="infoContainer">
       <p> Feel free to download my CV using the button below!</p>
-      <a href>
+      <a href="/files/CV.pdf" download>
         <Button
         className='buttons'
         buttonStyle='buttonOutlined'
