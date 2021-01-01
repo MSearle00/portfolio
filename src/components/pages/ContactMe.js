@@ -40,22 +40,22 @@ export default function ContactUs() {
       <form id="contactForm" onSubmit={sendEmail}>
       <div class="field">
           <label for="from_name">Name</label>
-          <input type="text" name="from_name" id="from_name"/>
+          <input type="text" name="from_name" id="from_name" required/>
         </div>
 
         <div class="field">
           <label for="user_email">Email</label>
-          <input type="text" name="user_email" id="user_email"/>
+          <input type="text" name="user_email" id="user_email" required/>
         </div>
 
         <div class="field">
           <label for="subject">Subject</label>
-          <input type="text" name="subject" id="subject"/>
+          <input type="text" name="subject" id="subject" required/>
         </div>
 
         <div class="field">
           <label for="message">Message</label>
-          <textarea type="text" name="message" id="message"/>
+          <textarea type="text" name="message" id="message" required/>
         </div>
 
         <input type="submit" id="button" value="Send Email" />
