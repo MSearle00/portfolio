@@ -39,6 +39,7 @@ function Cards() {
               text='A basic SPA about travelling.'
               label='HTML | CSS'
               path='https://github.com/MSearle00/project-2-travel-bucketlist'
+              date='18/08/2020'
             />
             <CardItem
               src={process.env.PUBLIC_URL + '/images/SocialSite.png'}
