@@ -10,7 +10,7 @@ export default function AboutMe() {
 
 					<p>I am currently working at DeeperThanBlue as a Junior Developer, with a focus on Front-End Development.</p>
           <br></br>
-					<p>In September 2021, I hope to be starting an apprenticeship with SHU in Digital and Technical Solutions - Software Engineering </p>
+					<p> I hope to continually improve my skills and knowledge, through both the front end and backend.</p>
         
         </div>
 
