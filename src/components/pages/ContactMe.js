@@ -3,6 +3,7 @@ import emailjs from 'emailjs-com';
 import { Button } from '.././Button';
 
 import './ContactMe.css';
+import Footer from '../Footer';
 
 export default function ContactUs() {
 
@@ -60,6 +61,7 @@ export default function ContactUs() {
         <input type="submit" id="button" value="Send Email" />
       </form>
     </div>
+    <Footer />
     </>
   );
 }

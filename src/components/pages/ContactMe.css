@@ -6,8 +6,6 @@
   font-size: large;
 }
 
-
-
 .field{
     display: flex;
     justify-content: center;
@@ -53,6 +51,7 @@ input[type=text], select, textarea {
     width: 70%;
     margin: auto;
     margin-top: 20px;
+    margin-bottom: 50px;
   }
 
   @media screen and (max-width: 768px) {
