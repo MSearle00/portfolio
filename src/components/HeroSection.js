@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 function HeroSection() {
   return (
     <div className='heroContainer'>
-      <video src='/images/pinkFlowers.mp4' autoPlay loop muted />
+      <video src={process.env.PUBLIC_URL + '/images/pinkFlowers.mp4'} autoPlay loop muted />
       <div className='infoContainer'>
       <h1>Maria Searle</h1>
       <p>Junior Developer ||  Sheffield, UK</p>
