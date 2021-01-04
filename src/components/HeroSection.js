@@ -29,7 +29,7 @@ function HeroSection() {
           buttonSize='buttonLarge'
           buttonPage='buttonProjects'
         >
-          VIEW MY PROJECTS <i className='far fa-play-circle' />
+          VIEW MY PROJECTS <i className='fas fa-project-diagram'></i>
         </Button>
         </Link>
       </div>
