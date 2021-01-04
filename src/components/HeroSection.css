@@ -41,7 +41,7 @@ a:link {
   font-size: 32px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;
-  display: flex;
+    display: flex;
   justify-content: center;
 }
 
@@ -55,10 +55,12 @@ a:link {
 
 .infoButtons .button {
   margin: 6px;
+  width: 300px
 }
 
+
 .fa-project-diagram{
-  margin-left: 5px;
+  margin-left: 4px;
 }
 
 @media screen and (max-width: 960px) {
