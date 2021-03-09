@@ -8,10 +8,12 @@ export default function AboutMe() {
 		<div class="main-container">
 				<div class="aboutMe">
 
-					<p>I am currently working at DeeperThanBlue as a Junior Developer, with a focus on Front-End Development.</p>
+					<p>I am currently a Junior Developer, with experience in Front-End Development.</p>
           <br></br>
 					<p> I hope to continually improve my skills and knowledge, through both the front end and backend.</p>
-        
+          <br></br>
+        <p>At the moment I'm studying C++!</p>
+
         </div>
 
           {/* SKILLS */}
@@ -64,6 +66,7 @@ export default function AboutMe() {
                 <li> The Developer Academy, Part Time Bootcamp || 2020 - 2021</li>
                 <li> HNC Computing - Merit || Sheffield College || 2019 - 2020</li>
                 <li> A Level Computing - E || King Edwards VII || 2017 - 2019 </li>
+                <li> GCSE Computing - A || King Edwards VII || 2015 - 2017 </li>
               </ul>
             </div>
           </div>
