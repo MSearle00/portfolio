@@ -48,7 +48,7 @@ export default function Dropdown(
             onChange={e => {
                 setQuery(e.target.value)
                 onChange(null)}
-                }
+            }
             onTouchEnd={toggle}
             onClick={toggle}/>
             </div>

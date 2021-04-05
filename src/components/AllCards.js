@@ -9,15 +9,26 @@ import data from './projects.json'
 function AllCards() {
   const projectData = data
   const [value, setValue] = useState(null)
+  const [projectList, setProjectList] = useState(projectData)
   const tags = projectData.map((projects) => projects.tags)
   
   var tagList = [].concat.apply([], tags);
 
   const filterTags = Array.from(new Set(tagList));
 
-  function filterProjects(){
-    
+  function setProjects(value){
+    setProjectList(projectList.filter(project => project.tags.includes(value)));
   }
+  function resetProjects(){
+    setProjectList(projectData);
+    setValue("")
+  }
+
+function onChange(value) {
+    setProjects(value);
+    setValue(value);
+  };
+
 
   return (
     <div className='cards'>
@@ -26,11 +37,12 @@ function AllCards() {
         options={filterTags}
         prompt = "Please select a language"
         value={value}
-        onChange={val => setValue(val)}/>
+        onChange={value => onChange(value)}/>
+      <button onClick= {() => resetProjects()}> Reset Selection </button>
       </div>
       <div className='cardsContainer'>
         <div className='cardsWrapper'>
-          {projectData.map(projectDatas => (
+          {projectList.map(projectDatas => (
             <CardItem
                   src= {projectDatas.src}
                   text= {projectDatas.text}
