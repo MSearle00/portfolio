@@ -17,5 +17,7 @@
 
     { "id": "9", "src":"/images/WeatherApp.png", "text": "A vanilla JS Weather App with search function using OpenWeatherMap API", "tags": ["Javascript", "HTML", "CSS"], "path": "https://github.com/MSearle00/project-11-weatherapp", "date": "2020-10-14" },
 
-    { "id": "10", "src":"/images/EventApp.png", "text": "An event app with a user log-in and sign-up managed by MongoDB.", "tags": ["React.js", "Mongo", "Express.js", "Node.js", "CSS", "HTML"], "path": "https://github.com/MSearle00/project-12-eventapp", "date": "2020-10-28" }
+    { "id": "10", "src":"/images/EventApp.png", "text": "An event app with a user log-in and sign-up managed by MongoDB.", "tags": ["React.js", "Mongo", "Express.js", "Node.js", "CSS", "HTML"], "path": "https://github.com/MSearle00/project-12-eventapp", "date": "2020-10-28" },
+
+    { "id": "10", "src": "/images/VendingMachine.png", "text": "A vending machine with a password protected restock function", "tags":["C#"], "path": "https://github.com/MSearle00/VendingMachine", "date": "2021-03-30" }
     ] 
