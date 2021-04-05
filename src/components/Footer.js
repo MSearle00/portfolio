@@ -25,7 +25,16 @@ function Footer() {
             <i class='fab fa-twitter' />
             </a>
             <a
-              class='social-icon-link twitter'
+              class='social-icon-link github'
+              href='https://github.com/MSearle00'
+              target='_blank'
+              rel="noopener noreferrer"
+              aria-label='Github'
+            >
+              <i class='fab fa-github' />
+            </a>
+            <a
+              class='social-icon-link linkedin'
               href='https://www.linkedin.com/in/mariasearle00/'
               target='_blank'
               rel="noopener noreferrer"
