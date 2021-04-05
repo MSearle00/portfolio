@@ -17,8 +17,8 @@ h1 {
 }
 
 .cardsWrapper {
-  position: relative;
-  margin: 50px 0 45px;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .cardsItems {

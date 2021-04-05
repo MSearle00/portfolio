@@ -10,7 +10,7 @@ function CardItem(props) {
             <img
               className='cardsItemImg'
               alt='Project Image'
-              src={props.src}
+              src={process.env.PUBLIC_URL + props.src}
             />
           </figure>
           <div className='cardsItemInfo'>
