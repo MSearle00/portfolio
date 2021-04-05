@@ -24,21 +24,36 @@ function AllCards() {
     setValue("")
   }
 
-function onChange(value) {
+  
+  function onChange(value) {
     setProjects(value);
     setValue(value);
   };
+  
+  function sortByDateAsc(){
+    setProjectList(projectList.slice().sort((a, b) => new Date(a.date) - new Date(b.date)))
+    console.log(projectList)
+  }
+  function sortByDateDesc(){
+    setProjectList(projectList.slice().sort((a, b) => new Date(b.date) - new Date(a.date)))
+  }
 
 
   return (
     <div className='cards'>
-      <div className='dropdown'>
-      <Dropdown
-        options={filterTags}
-        prompt = "Please select a language"
-        value={value}
-        onChange={value => onChange(value)}/>
-      <button onClick= {() => resetProjects()}> Reset Selection </button>
+      <div className='filters'>
+        <div className='dropdown'>
+        <Dropdown
+          options={filterTags}
+          prompt = "Please select a language"
+          value={value}
+          onChange={value => onChange(value)}/>
+        <button onClick= {() => resetProjects()}> Reset Selection </button>
+        </div>
+        <div className='dropdown'>
+          <button value="desc" onClick={() => sortByDateDesc()} >Newest First</button>
+          <button value="asc" onClick={() => sortByDateAsc()} >Oldest First</button>
+        </div>
       </div>
       <div className='cardsContainer'>
         <div className='cardsWrapper'>

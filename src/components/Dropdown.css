@@ -3,7 +3,7 @@
     cursor: default;
     position: relative;
     margin-bottom: 30px;
-    width: 300px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -18,14 +18,18 @@
     height: 0;
     margin-top: 0.3rem;
     position: absolute;
-    right: 40px;
-    top: 15px;
+    right: 60px;
+    top: 20px;
     width: 0;
 }
 
 .dropdown .arrow.open {
     border-color: transparent transparent #999;
     border-width: 0 5px 5px;
+}
+
+input[type=text]{
+    width: 100% !important;
 }
 
 .dropdown .selected-value input {
