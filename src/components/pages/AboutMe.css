@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
 body{
     background-color:rgb(131, 170, 185);
     padding: 0;
@@ -16,6 +18,10 @@ body{
 	align-items: center;
 	padding-top: 20px;
 	padding-bottom: 20px;
+}
+
+.aboutMe > p, h4, strong{
+    font-family: 'Permanent Marker', cursive;
 }
 
 .gridWrapper{

@@ -48,11 +48,11 @@ function AllCards() {
           prompt = "Please select a language"
           value={value}
           onChange={value => onChange(value)}/>
-        <button onClick= {() => resetProjects()}> Reset Selection </button>
+        <button className='sortingButton' onClick= {() => resetProjects()}> Reset Selection </button>
         </div>
         <div className='dropdown'>
-          <button value="desc" onClick={() => sortByDateDesc()} >Newest First</button>
-          <button value="asc" onClick={() => sortByDateAsc()} >Oldest First</button>
+          <button className='sortingButton' value="desc" onClick={() => sortByDateDesc()} >Newest First</button>
+          <button className='sortingButton' value="asc" onClick={() => sortByDateAsc()} >Oldest First</button>
         </div>
       </div>
       <div className='cardsContainer'>

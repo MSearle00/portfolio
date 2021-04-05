@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 function Cards() {
   return (
     <div className='cards'>
-      <h1>Check out these top projects</h1>
+      <h1 className='cardsTitle'>Check out these top projects</h1>
       <div className='cardsContainer'>
           <ul className='cardsItems'>
           <CardItem
@@ -49,7 +49,7 @@ function Cards() {
             />
           </ul>
           <Link to="/projects">
-          <Button buttonStyle='buttonOutlined'>Click here to view more projects!</Button>
+          <Button buttonStyle='buttonBlack'>Click here to view more projects!</Button>
           </Link>
         </div>
     </div>

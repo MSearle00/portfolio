@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
 .cards {
   padding: 4rem;
   background-color: white
@@ -5,6 +7,14 @@
 
 h1 {
   text-align: center;
+}
+.cardsTitle{
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-family: 'Permanent Marker', cursive;
+  border-bottom: 5px black double;
+  width: 40%;
 }
 
 .cardsContainer {
@@ -104,14 +114,7 @@ h1 {
   margin:auto;
 }
 
-.buttonOutlined{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: black;
-}
-
-button {
+.sortingButton {
   background-color:rgb(131, 170, 185);
   font-weight: bold;
   text-transform: uppercase;
@@ -148,6 +151,9 @@ button {
 @media only screen and (max-width: 780px){
   .filters {
     flex-direction: column;
+    width: 100%;
+  }
+  .cardsTitle{
     width: 100%;
   }
 }

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -11,4 +13,8 @@
   height: 90vh;
   background-color: rgb(131, 170, 185);
 
+}
+
+.projects > h1{
+  font-family: 'Permanent Marker', cursive;
 }
