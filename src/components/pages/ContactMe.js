@@ -28,7 +28,7 @@ export default function ContactUs() {
       <a href="/files/CV.pdf" download>
         <Button
         className='buttons'
-        buttonStyle='buttonOutlined'
+        buttonStyle='buttonBlack'
         buttonSize='buttonMedium'>
           CV
         </Button>
