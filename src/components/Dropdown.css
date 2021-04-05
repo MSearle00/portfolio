@@ -3,6 +3,7 @@
     cursor: default;
     position: relative;
     margin-bottom: 30px;
+    width: 300px;
 }
 
 .dropdown .arrow {
@@ -14,8 +15,8 @@
     height: 0;
     margin-top: 0.3rem;
     position: absolute;
-    right: 10px;
-    top: 5px;
+    right: 40px;
+    top: 15px;
     width: 0;
 }
 
@@ -24,7 +25,7 @@
     border-width: 0 5px 5px;
 }
 
-.dropdown .selected-value {
+.dropdown .selected-value input {
     line-height: 1.5;
     font-size: 1rem;
     background-color: #fff;

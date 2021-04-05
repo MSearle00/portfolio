@@ -5,7 +5,6 @@ import Dropdown from './Dropdown';
 import "./Dropdown.css"
 
 import data from './projects.json'
-import { initialValue } from 'rbx/components/dropdown/dropdown-context';
 
 function AllCards() {
   const projectData = data
@@ -15,14 +14,17 @@ function AllCards() {
   var tagList = [].concat.apply([], tags);
 
   const filterTags = Array.from(new Set(tagList));
-  console.log(filterTags)
 
+  function filterProjects(){
+    
+  }
 
   return (
     <div className='cards'>
-      <div className='dropdown' style={{width:200}}>
+      <div className='dropdown'>
       <Dropdown
         options={filterTags}
+        prompt = "Please select a language"
         value={value}
         onChange={val => setValue(val)}/>
       </div>
