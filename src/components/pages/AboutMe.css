@@ -80,8 +80,12 @@ body{
 }
 
 @media screen and (max-width: 960px) {
-    .gridWrapper, .gridWrapper{
+    .gridWrapper{
+        width: 90%;
+    }
+    .education, .technologies{
         width: 80%;
+        margin: auto;
     }
     .aboutMe{
         width: 90%;
