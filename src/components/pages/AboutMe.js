@@ -8,11 +8,11 @@ export default function AboutMe() {
 		<div class="main-container">
 				<div class="aboutMe">
 
-					<p>I am currently a Junior Developer, with experience in Front-End Development.</p>
+					<p>I am a Junior Developer, with experience in Front-End Development.</p>
           <br></br>
 					<p> I hope to continually improve my skills and knowledge, through both the front end and backend.</p>
           <br></br>
-          <p>At the moment I'm studying C++ and C#!</p>
+          <p>At the moment I'm studying C# and Python whilst working in Administration!</p>
 
         </div>
 
@@ -45,8 +45,8 @@ export default function AboutMe() {
               <h4 class="subtitle"> TECHNOLOGIES</h4>
               <div class="technologies">
               <ul>
-                <li> GIT </li>
-                <li> Sourcetree</li>
+                <li>GIT </li>
+                <li>Sourcetree</li>
                 <li>Github</li>
                 <li>Bitbucket</li>
                 <li>MongoDB Compass & Atlas</li>

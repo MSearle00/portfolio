@@ -10,7 +10,7 @@ function HeroSection() {
       <video src={process.env.PUBLIC_URL + '/images/pinkFlowers.mp4'} autoPlay loop muted />
       <div className='infoContainer'>
         <h1>Maria Searle</h1>
-        <p>Junior Developer ||  Sheffield, UK</p>
+        <p>Sheffield, UK</p>
         <div className='infoButtons'>
           <Link to="/aboutMe">
             <Button
