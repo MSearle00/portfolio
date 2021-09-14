@@ -9,7 +9,7 @@
 
     { "id": "5", "src": "/images/Ceaser.png", "text": "A Ceaser Cipher", "tags": ["Javascript", "HTML", "CSS"], "path":"https://github.com/MSearle00/project-5-ceaserCipher", "date": "2020-09-08" },
 
-    { "id": "6", "src":"/images/CalculatorApp.png", "text": "A  Calculator application, with memory functions.", "tags": ["React.js", "CSS", "SCSS", "HTML"], "path":"'https://github.com/MSearle00/project-7-calculator'", "date": "2020-09-15" },
+    { "id": "6", "src":"/images/CalculatorApp.png", "text": "A  Calculator application, with memory functions.", "tags": ["React.js", "CSS", "SCSS", "HTML"], "path":"https://github.com/MSearle00/project-7-calculator", "date": "2020-09-15" },
 
     { "id": "7", "src":"/images/SocialSite.png", "text": "A start on a social site template", "tags": ["React.js", "CSS", "HTML"], "path":"https://github.com/MSearle00/project-8-social-site", "date": "2020-09-22" },
 
